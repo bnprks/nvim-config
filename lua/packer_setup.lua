@@ -35,7 +35,7 @@ return require('packer').startup(function(use)
     }
 
     -- Treesitter support for textobjects (i.e. func, param, statement)
-    use {'https://github/bnprks/nvim-treesitter-textobjects', branch="r-and-python"}
+    use {'https://github.com/bnprks/nvim-treesitter-textobjects', branch="r-and-python"}
 
     -- Visualization of treesitter parses
     use {
